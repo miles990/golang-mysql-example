@@ -1,8 +1,8 @@
 package db
 
 import (
-	"github.com/golang-mysql-example/util/token"
-	"github.com/golang-mysql-example/db/models"	
+	"github.com/miles990/golang-mysql-example/util/token"
+	"github.com/miles990/golang-mysql-example/db/models"	
 )
 
 import (

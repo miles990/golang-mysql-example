@@ -1,7 +1,7 @@
 package main
 
 import(	
-	db "github.com/golang-mysql-exampledb/mysql"	
+	db "github.com/miles990/golang-mysql-exampledb/mysql"	
 )
 
 import (
