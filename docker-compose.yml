@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+
+  mysql:
+    restart: always
+    image: mysql:5.7.21
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./service/mysql/data:/var/lib/mysql
+    ports:
+      - 3306:3306
+    environment:
+       MYSQL_ROOT_PASSWORD: root
+       MYSQL_DATABASE: gamedata
+       MYSQL_USER: dev
+       MYSQL_PASSWORD: dev
